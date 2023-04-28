@@ -97,3 +97,10 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Credits",
     Text = "WhateverJakub (Creator) and nobody else 😎😎"
 })
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "You like this? Go like it on GitHub then"
+})
