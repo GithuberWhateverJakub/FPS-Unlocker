@@ -109,3 +109,11 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Jakub's FPS Unlocker",
     Text = "You like this? Go ahead and DM me in Discord, WhateverJakub#1887"
 })
+
+wait(3120)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "You've been on for a while..."
+})
+
