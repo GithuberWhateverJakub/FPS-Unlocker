@@ -1,6 +1,11 @@
 local unlocked_fps = 69420
 
-wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Welcome to Jakub's FPS Unlocker script, hope you enjoy it! Loading script."
+})
+
+wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Jakub's FPS Unlocker",
