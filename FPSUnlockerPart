@@ -1,0 +1,69 @@
+local unlocked_fps = 69420
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS.."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS..."
+})
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS.."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Unlocking FPS..."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "FPS UNLOCKED! Cap set to: "..unlocked_fps.." have a nice day with me!"
+})
+
+setfpscap(unlocked_fps)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Credits",
+    Text = "WhateverJakub (Creator) and nobody else 😎😎"
+})
+
+wait(480)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "You like this? Go ahead and DM me in Discord, WhateverJakub#1887"
+})
+
+wait(3120)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "You've been on for a while..."
+})
+
