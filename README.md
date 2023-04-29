@@ -1,2 +1,2 @@
 # FPS-Unlocker
-well i uhh made fps script
+Self made FPS Unlocker (beta test gui not mine!)
