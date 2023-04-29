@@ -1,4 +1,5 @@
 
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "Jakub's FPS Unlocker",
     Text = "Welcome to Jakub's FPS Unlocker script, hope you enjoy it! Loading script."
@@ -7,7 +8,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 wait(10)
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("FPS Unlocker/Locker", "Jacob")
+local Window = Library.CreateLib("FPS Unlocker/Locker", "Synapse")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
