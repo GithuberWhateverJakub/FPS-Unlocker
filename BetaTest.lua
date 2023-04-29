@@ -1,14 +1,14 @@
 
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "Jakub's FPS Unlocker",
-    Text = "Welcome to Jakub's FPS Unlocker script, hope you enjoy it! Loading script."
+    Title = "Jakub's (not his) scripts",
+    Text = "Welcome to Jakub's scripts (incluides custom FPS unlocker!), hope you enjoy it! Loading script."
 })
 
 wait(4)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/GUI.lua')))()
-local Window = OrionLib:MakeWindow({Name = "FPS Unlocker or Locker", HidePremium = false, IntroText = "FPS Unlocker", SaveConfig = false, ConfigFolder = "FPSULL"})
+local Window = OrionLib:MakeWindow({Name = "Jakub's Scripts", HidePremium = false, IntroText = "FPS Unlocker", SaveConfig = false, ConfigFolder = "FPSULL"})
 
 local FPSULLTAB = Window:MakeTab({
 	Name = "FPS Unlocker",
@@ -39,6 +39,13 @@ AdminCMDS:AddButton({
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
   	end    
 })
+
+local CB = Window:MakeTab({
+	Name = "CounterBlox",
+	Icon = "rbxassetid://13286976919",
+	PremiumOnly = false
+})
+
 
 
 OrionLib:Init()
