@@ -5,23 +5,40 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     Text = "Welcome to Jakub's FPS Unlocker script, hope you enjoy it! Loading script."
 })
 
-wait(10)
+wait(4)
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("FPS Unlocker/Locker", "Synapse")
-    -- MAIN
-    local Main = Window:NewTab("Main")
-    local MainSection = Main:NewSection("Main")
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/GUI.lua')))()
+local Window = OrionLib:MakeWindow({Name = "FPS Unlocker or Locker", HidePremium = false, IntroText = "FPS Unlocker", SaveConfig = false, ConfigFolder = "FPSULL"})
+
+local FPSULLTAB = Window:MakeTab({
+	Name = "FPS Unlocker",
+	Icon = "rbxassetid://13286976919",
+	PremiumOnly = false
+})
+
+FPSULLTAB:AddButton({
+	Name = "FPS Unlock",
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/FPSUnlockerPart"))() 
+  	end    
+})
+
+FPSULLTAB:AddButton({
+	Name = "FPS Lock",
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/FPSUnlockerPart2"))() 
+  	end    
+})
+
+local AdminCMDS = Window:MakeTab({
+	Name = "Inf Yield",
+	Icon = "rbxassetid://1210153516",
+	PremiumOnly = false
+})
+
+AdminCMDS:AddButton({
+	Name = "Infinite Yield",
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+  	end    
+})
 
 
-    MainSection:NewButton("FPS Unlock", "Makes your FPS go UP!", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/FPSUnlockerPart"))() 
-    end)
-
-    MainSection:NewButton("FPS lock", "Makes your FPS go down...", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/FPSUnlockerPart2"))() 
-    end)
-
-    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
-        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-    end)
+OrionLib:Init()
