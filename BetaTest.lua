@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/GUI.lua')))()
-local Window = OrionLib:MakeWindow({Name = "FPS Unlocker or Locker", HidePremium = false, IntroText = "FPS Unlocker", SaveConfig = false, ConfigFolder = "FPSULL"})
+local Window = OrionLib:MakeWindow({Name = "Jakub's (FPS Unlocker mine only) scripts", HidePremium = false, IntroText = "FPS Unlocker", SaveConfig = false, ConfigFolder = "FPSULL"})
 
 local FPSULLTAB = Window:MakeTab({
 	Name = "FPS Unlocker",
