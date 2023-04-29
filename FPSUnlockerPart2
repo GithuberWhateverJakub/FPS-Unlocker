@@ -1,0 +1,49 @@
+local unlocked_fps = 60
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS.."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS..."
+})
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS.."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "Locking FPS..."
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Jakub's FPS Unlocker",
+    Text = "FPS LOCKED! Cap set to: "..unlocked_fps.." remember, this is a normal FPS cap."
+})
+
+setfpscap(unlocked_fps)
