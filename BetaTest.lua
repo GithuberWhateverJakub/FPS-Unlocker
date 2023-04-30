@@ -19,6 +19,12 @@ FPSULLTAB:AddButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/WhateverJakub/FPS-Unlocker/main/FPSUnlockerPart2"))() 
   	end    
 })
+FPSULLTAB:AddButton({
+	Name = "FPS Show",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzExcel/LExploits/main/ShowFPS/ShowFPS.lua"))() 
+  	end    
+})
 
 local AdminCMDS = Window:MakeTab({
 	Name = "Inf Yield",
